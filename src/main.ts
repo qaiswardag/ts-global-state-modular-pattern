@@ -172,12 +172,11 @@ class Three {
   }
 }
 
-// Usage example demonstrating how One orchestrates helpers:
 
 const one = new One(myGlobalState, { name: 'john doe' });
 
-one.show(); 
 // Shows initial state, title set by Two, role undefined
+one.show(); 
 
 // Calls Two’s method through One to update country
 one.updateCountry('USA'); 
@@ -185,5 +184,5 @@ one.updateCountry('USA');
 // Calls Three’s method through One to update user role
 one.updateUserRole('Editor'); 
 
-one.show(); 
 // Shows updated user role and country, and global state flags
+one.show(); 
