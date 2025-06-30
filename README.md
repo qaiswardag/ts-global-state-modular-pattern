@@ -14,23 +14,9 @@ This project demonstrates a clean and modular approach to managing global state 
 
 ---
 
-## Structure
-
-- `One.ts` — Main orchestrator class holding state and delegating to helpers
-- `Two.ts` — Logic related to user title and country updates
-- `Three.ts` — Logic related to user role updates
-- `state.ts` — Global state container with getter/setter interfaces
-- `index.ts` — Entry point showing how everything works together
-
----
-
 ## How to Use
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/ts-global-state-modular-pattern.git
 cd ts-global-state-modular-pattern
-
-# Run the TypeScript project
-npm install
-npx ts-node index.ts
